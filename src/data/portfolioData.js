@@ -22,8 +22,7 @@ export const personalInfo = {
       degree: "B.Tech in Data Science",
       institution: "Malla Reddy University",
       cgpa: "8.1 CGPA",
-      status: "Graduating [Month, Year]", // Placeholder: e.g. June 2026 / 2027
-      isPlaceholderDate: true,
+      status: "Graduating July 2027",
       description: "Core focus on Machine Learning, Generative AI, NLP architectures, Deep Learning, and Distributed Data Processing."
     },
     {
@@ -73,8 +72,7 @@ export const skillsData = [
       "SQLAlchemy",
       "PostgreSQL",
       "Docker",
-      "Nginx",
-      "[MLOps tools from churn project]" // Placeholder as requested
+      "Nginx"
     ]
   },
   {
@@ -138,22 +136,23 @@ export const projectsData = [
   {
     id: "churn-mlops-platform",
     title: "Churn MLOps Platform",
-    subtitle: "[One-line description from README: End-to-end customer churn prediction & MLOps system]",
+    subtitle: "End-to-End Customer Churn Prediction & ML Lifecycle System",
     category: "MLOps & Engineering",
     featured: false,
-    isPlaceholder: true,
     description:
-      "[One-line description from the README: Production-ready ML lifecycle platform for customer churn forecasting].",
+      "End-to-end production machine learning system for predicting customer churn and explaining model predictions. Integrates automated training pipelines, experiment tracking, explainable AI, and containerized API serving.",
     details: [
-      "[Model: Supervised classification models evaluated with feature importance and cross-validation]",
-      "[Pipeline & Serving: Automated training, feature transformation, and containerized API serving]",
-      "[Deployment & Monitoring: Automated CI/CD pipeline, performance tracking, and data drift monitoring]"
+      "Trained and evaluated high-performance gradient-boosted models with XGBoost and scikit-learn, utilizing SHAP values for feature importance and prediction interpretability.",
+      "Built containerized REST API endpoints using FastAPI and interactive dashboard interfaces with Streamlit, backed by Supabase for persistence.",
+      "Tracked experiments and model artifacts using MLflow, with automated unit and integration testing via pytest."
     ],
     metrics: [
-      { label: "Pipeline", value: "[Automated CI/CD]" },
-      { label: "Status", value: "[Production Ready]" }
+      { label: "Core Model", value: "XGBoost" },
+      { label: "Experiment Tracking", value: "MLflow" },
+      { label: "Explainability", value: "SHAP" },
+      { label: "Test Suite", value: "pytest" }
     ],
-    tech: ["Python", "FastAPI", "Docker", "[MLflow / DVC]", "[CI/CD Tool]", "[Monitoring Tool]"],
+    tech: ["Python", "XGBoost", "scikit-learn", "SHAP", "MLflow", "FastAPI", "Streamlit", "Supabase", "pytest"],
     githubUrl: "https://github.com/pauljon720728/churn-mlops-platform"
   },
   {
@@ -206,10 +205,9 @@ export const experienceData = [
   {
     id: "talent-hunt-hackathon",
     role: "Event Organiser and Technical Coordinator",
-    organization: "36-Hour Talent Hunt Hackathon for [Startup Name]",
+    organization: "36-Hour Talent Hunt Hackathon for Vynedam PVTL",
     location: "Hyderabad, India",
-    period: "[Month, Year]",
-    isPlaceholder: true,
+    period: "Technical Coordinator",
     highlight: "36-Hour Hackathon Organization",
     points: [
       "Managed student participants, guided developer teams in evaluating and selecting viable problem statements.",

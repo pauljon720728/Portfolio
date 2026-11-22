@@ -78,7 +78,9 @@ export default function About() {
                     <p className="text-xs text-slate-600 dark:text-slate-400 mt-0.5">{edu.institution}</p>
                     
                     {edu.status && (
-                      <div className="mt-1.5 flex items-center gap-1.5 text-xs text-amber-600 dark:text-amber-400">
+                      <div className={`mt-1.5 flex items-center gap-1.5 text-xs ${
+                        edu.isPlaceholderDate ? 'text-amber-600 dark:text-amber-400' : 'text-slate-500 dark:text-slate-400 font-medium'
+                      }`}>
                         {edu.isPlaceholderDate && <AlertCircle className="w-3.5 h-3.5 shrink-0" />}
                         <span>{edu.status}</span>
                       </div>
