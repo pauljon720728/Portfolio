@@ -82,10 +82,16 @@ export const skillsData = [
     skills: ["React.js", "Node.js", "Express.js", "MongoDB"]
   },
   {
+    category: "Tools & BI",
+    icon: "BarChart3",
+    description: "Business intelligence, spreadsheet analytics, and interactive data visualization.",
+    skills: ["Power BI", "MS-Excel", "Tableau"]
+  },
+  {
     category: "Developer Tools",
     icon: "Wrench",
-    description: "Version control, workflow efficiency, and developer environments.",
-    skills: ["Git", "GitHub", "Postman", "Jupyter Notebook", "VS Code", "Cursor", "Antigravity"]
+    description: "Version control, workflow efficiency, API clients, and AI developer environments.",
+    skills: ["Git", "GitHub", "Postman", "Jupyter Notebook", "VS Code", "Cursor", "Antigravity", "Ollama"]
   }
 ];
 

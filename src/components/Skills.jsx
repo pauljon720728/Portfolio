@@ -5,6 +5,7 @@ import {
   Server, 
   Layout, 
   Wrench, 
+  BarChart3,
   Sparkles,
   Layers
 } from 'lucide-react';
@@ -17,6 +18,7 @@ const iconMap = {
   Server: Server,
   Layout: Layout,
   Wrench: Wrench,
+  BarChart3: BarChart3,
 };
 
 export default function Skills() {
